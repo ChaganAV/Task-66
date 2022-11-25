@@ -3,7 +3,7 @@ int numEnd = InputInt("Введите конечное значение ");
 
 int sumNumbers = SumNumber(numBegin, numEnd);
 
-Console.WriteLine($"{sumNumbers}");
+Console.WriteLine($"M={numBegin}; N={numEnd} -> {sumNumbers}");
 
 int SumNumber(int min, int max)
 {
